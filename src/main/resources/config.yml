@@ -1,0 +1,13 @@
+config:
+
+  ## Please write a command once a day when Player join the server.
+  ## Also be careful that specified command you wrote is MUST be started WITHOUT slash.
+
+  ## --- Placeholder ---
+  ## {player_name} -> Replaced joined player name
+  ##   If sent as ServerConsole, it will be ignored.
+  run-command: "tellraw {player_name} \"Hi server manager, §aCommander plugin is actually working now! §cPlease change the config\""
+
+  ## About run command as player.
+  ## If here is "false", it will be run as ServerConsole so the player cannot get output.
+  run-as-player: true

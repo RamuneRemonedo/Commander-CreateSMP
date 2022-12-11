@@ -1,0 +1,6 @@
+name: Commander
+version: '${project.version}'
+main: tokyo.ramune.commander.CommanderPlugin
+api-version: 1.19
+authors: [ RamuneRemonedo ]
+description: Send command once a day when player join
